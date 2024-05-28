@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Quicksand', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color:inherit;    
+}/* color inherit para tirar a cor do link */ 
+
+:root{
+    --bg-color:var(--bg-color) #1d2631;
+    --tex-color: #f1eded;
+    --main-color: #f345d6;
+    --other-color: #fdfbfb;
+    --h1-font: 3rem;
+    --p-font: 1rem;
+}
+
+
+body{/* toda tela*/ 
+    background-color:#35332f ;
+    color: var(--tex-color);
+}
+
+
+
+header{/* HEADER so a parte de cima da tela*/ 
+    position:static ;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+}
+
+
+.logo{/* icones de cima da tela lado esquerdo */ 
+    display: flex;
+    align-items: center;
+    color: var(--tex-color);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.logo i{/* icones de cima da tela lado esquerdo */ 
+    color: var(--main-color);
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.navegação{/* icones de cima da tela meio */ 
+    display: flex;
+}
+
+.navegação a{/* icones de cima da tela meio */ 
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 0 30px;
+    transition: a .55s ease;
+}
+
+.navegação a:hover{
+    color: var(--main-color);
+
+}
+
+.header-icon{/* icones de cima da tela chat;faleconosco e lua e sol */ 
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    font-size: 35px;
+    color: var(--tex-color);
+    z-index: 10001;
+    cursor: pointer;    
+}
+
+.header-icon a{/* icones de cima da tela chat;faleconosco e lua e sol */ 
+    margin-right: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.header-icon a:hover{/* icons que fica do lado parte superior da tela canto direito carrinho/*/ 
+    transform: translateY(-5px);
+    color: var(--main-color);
+}
+/* HEADER ^ so a parte de cima da tela*/ 
+
+.celulares{/* nome na tela de celular 'palavra > celulares e 9 produtos*/ 
+    display:flex;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    justify-content: space-between;     /* item para cada ponta */ 
+    padding: 30px 8%;
+    background: var(--form-color);
+}
+
+.linha{/* linha abaixo da promocao */
+    width:100%;
+    height: 1px;
+    background: var(--main-color);
+}
+
+main{/* toda coluna*/
+display: flex;
+justify-content: space-between;
+padding: 30px 8%;
+}
+
+.coluna{/*  colunas*/
+display: flex;
+flex-direction: column;
+gap:50px;
+}
+
+.produto{
+display: flex;
+flex-direction: column;
+gap:10px;
+}
+
+.produto img{/* fotos do produtos*/
+    width:250px;
+    height: 250px;
+    object-fit:contain;    
+    border-radius: 10px;
+    box-shadow: 0 1px 5px 2px var(--main-color);
+}
+
+.produto span{/* texto do produtos*/
+   font-weight: 700;
+   font-size: 20px;
+   text-align: center;
+   letter-spacing: 1px;
+   gap:20px;   
+}
+
+.valor{/* cor do valor do produto*/
+color: var(--main-color);
+letter-spacing: 2px;
+font-size: 20px;
+}
+
+.btn{/*COMPRAR CELULAR PRINCIPAL */
+    display: flex;
+    padding: 10px 70px;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+    width: 100%;
+    background:transparent;
+    box-shadow: 0 0 0 2px var(--tex-color);
+    transition: all .55s ease;
+    border-radius: 10px;
+}
+
+.btn:hover{/*COMPRAR CELULAR PRINCIPAL */
+    transform: translateY(2px);
+    color: chartreuse  }
+
+#footer1{/* RODAPÉ */    
+    font-size:var(--p-font);
+    transition: a .55s ease;   
+    display: flex;    
+    width: 100%;
+    justify-content: center;
+    margin-block: 30px;
+    box-shadow: 0 4px 20px 4px var(--main-color);
+    
+}
+.rodape1 a:hover{/* RODAPÉ para aparecer ao clicar */ 
+    color: var();
+
+}
+
+.rodape1 h2{/* RODAPÉ H2 */ 
+    margin:5px 10px;
+    padding: 10px;     
+}
+.rodape1 li{
+    display: fixed;  
+}
+
+.rodape1 a{ /* RODAPÉ a*/ 
+    margin:5px 25px;
+}
+.rodape1 #bx{ /* RODAPÉ bx os icons */ 
+    font-size: 30px;
+    margin: 5px 50px;
+}
+
+.rodape1 p{
+    margin: 0px 30px;
+    bottom: right;
+}

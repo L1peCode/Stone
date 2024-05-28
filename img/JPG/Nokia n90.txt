@@ -1,0 +1,4 @@
+ celular possuí uma tela giratória em 90º, com travamento em quatro modos, permitindo capturar fotos em ângulos diferenciados.
+ A câmera possuí 2 megapixels, resolução de 1600 x 1200 pixels, flash integrado, zoom digital de 20x e função autofoco. 
+Também é possível acessar um editor de foto e vídeo e compartilhar as imagens na Web. 
+O celular permite baixar e ouvir músicas em mp3, usar apps em Java e transmitir arquivos por Bluetooth.

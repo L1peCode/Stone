@@ -1,0 +1,3 @@
+Mede 118 x 52 x 18 mm e pesa 150 g. Possui uma tela TFT de 2.7" polegadas. A resolução é de 208 x 320 e densidade de pixels de 141 ppi.
+A câmera selfie frontal é com 0 MP. A câmera principal é única com 1.3 MP.
+Ele é executado em CPU 144 MHz ARM925T com 18 MB memória. A bateria é de 0 mAh.
